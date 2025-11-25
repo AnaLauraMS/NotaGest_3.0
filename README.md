@@ -1,13 +1,8 @@
-<table align="center" border="0" style="border:0;">
-  <tr>
-    <td>
-      <img src="https://i.postimg.cc/NGWntpMc/Logo-Horizontal.png" alt="Logo do NotaGest" width="200"/>
-    </td>
-    <td>
-      <h1>Sistema de Gerenciamento de Notas Fiscais</h1>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://i.postimg.cc/NGWntpMc/Logo-Horizontal.png" alt="Logo do NotaGest" width="250"/>
+</p>
+
+<h1 align="center">Sistema de Gerenciamento de Notas Fiscais</h1>
 
 <p align="center">
   Plataforma completa para o armazenamento, controle e exportação de notas fiscais de construção e reforma.
@@ -35,7 +30,6 @@ O sistema também contribui para a **regularização de obras e reformas junto a
 > 💡 O projeto foi desenvolvido no curso de **Desenvolvimento de Software Multiplataforma (DSM)** da **FATEC Votorantim**, integrando conceitos de front-end, back-end e banco de dados. A ideia é criar uma solução prática e moderna que atenda às necessidades reais do mercado de construção civil, trazendo **eficiência, organização e confiabilidade** para o gerenciamento de documentos fiscais.
 
 
-
 ## ⚙️ Arquitetura do Projeto
 
 O sistema foi estruturado em duas principais camadas — **frontend** e **backend** — que se comunicam por meio de uma **API RESTful**.
@@ -51,33 +45,62 @@ O sistema foi estruturado em duas principais camadas — **frontend** e **backen
   <img src="https://i.postimg.cc/R0hGcxDF/Diagrama-de-caso-de-uso.png" alt="Diagrama de Caso de Uso do NotaGest" width="600"/>
 </p>
 
-## 💡 Funcionalidades
+## 💡 Funcionalidades e Requisitos
 
-### Frontend (NotaGest-TypeScript)
-- Autenticação (login e cadastro)
-- Cadastro de imóveis
-- Upload de notas fiscais e recibos
-- Dashboard com gráficos interativos (Recharts)
-- Geração de PDF (jsPDF)
-- Exportação de dados em Excel
+O **NotaGest** foi desenvolvido com foco em **eficiência, organização e facilidade de uso**, atendendo tanto a usuários individuais quanto a empresas do setor de construção civil.  
+A seguir estão as principais **funcionalidades** e **requisitos** do sistema:
 
-### Backend (NotaGest-Express)
-- API RESTful com endpoints para usuários e notas
-- Middleware de autenticação via **JWT**
-- Integração com **MongoDB** e **MySQL**
-- Criptografia de senhas com **bcryptjs**
-- Upload de arquivos com **Multer**
-- Documentação de rotas com **Swagger UI**
+---
+
+### Requisitos Funcionais
+
+#### Frontend (NotaGest-TypeScript)
+- Permitir **autenticação de usuários** (login e cadastro).  
+- Permitir o **cadastro de imóveis** com dados detalhados.  
+- Realizar **upload de notas fiscais e recibos** em formato de imagem ou PDF.  
+- Exibir **dashboard interativo** com gráficos gerados via **Recharts**.  
+- Possibilitar a **geração de relatórios em PDF** utilizando **jsPDF**.  
+- Permitir **exportação de dados em planilhas Excel**.  
+
+#### Backend (NotaGest-Express)
+- Disponibilizar uma **API RESTful** para comunicação entre o front-end e o banco de dados.  
+- Implementar **middleware de autenticação via JWT** para garantir segurança nas rotas.  
+- Integrar o sistema aos bancos de dados **MongoDB** e **MySQL**.  
+- Realizar **criptografia de senhas** com **bcryptjs**.  
+- Permitir o **upload de arquivos** com gerenciamento via **Multer**.  
+- Gerar **documentação automatizada de rotas** utilizando **Swagger UI**.  
+
+---
+
+### Requisitos Não Funcionais
+
+- **Usabilidade:** Interface intuitiva, desenvolvida com **Next.js** e **Tailwind CSS**.  
+- **Desempenho:** Respostas rápidas das APIs e carregamento otimizado no front-end.  
+- **Segurança:** Dados criptografados, tokens JWT e validações nas rotas de acesso.  
+- **Disponibilidade:** Deploy contínuo nas plataformas **Vercel** (frontend) e **Render** (backend).  
+- **Escalabilidade:** Estrutura modular que permite a expansão de novas funcionalidades.  
+- **Compatibilidade:** Suporte aos principais navegadores modernos.  
+
+---
 
 ## 📊 Entregas de Sprints  
 
-| Sprint | Período | Principais Entregas / Incrementos |
-|:-------|:---------|:----------------------------------|
-| **Sprint 1** | dd/mm - dd/mm | Estrutura inicial do projeto, criação de rotas e layout base |
-| **Sprint 2** | dd/mm - dd/mm | Implementação do upload de arquivos e autenticação |
-| **Sprint 3** | dd/mm - dd/mm | Dashboard, relatórios e integração com banco de dados |
-| **Sprint 4** | dd/mm - dd/mm | Ajustes finais, testes e deploy |
- 
+### Sprint 2 — Login / Cadastro (23–30 de outubro)
+- Implementação das telas de **Login e Cadastro**
+- Validação de credenciais (email/senha)
+- Integração com backend (JWT e bcrypt)
+- Middleware de autenticação  
+
+![Sprint 2](https://i.postimg.cc/qBmkBsH9/sprint-2.png)
+
+### Sprint 3 — Adicionar Arquivo 
+- Funcionalidades de upload, exclusão e gerenciamento de documentos
+- Exportação de relatórios em PDF e Excel
+- Implementação de filtros, paginação e validações
+- Integração com armazenamento e APIs externas  
+
+![Sprint 3](https://i.postimg.cc/FRr4NRWH/Sprint-3.png)  
+
 
 ## 🧩 Tecnologias Utilizadas
 
@@ -92,8 +115,8 @@ O sistema foi estruturado em duas principais camadas — **frontend** e **backen
 
 O projeto está dividido em **Frontend** e **Backend**, que podem ser acessados pelos links abaixo:  
 
-- Frontend: [Acesse aqui](https://nota-gest.vercel.app/)  
-- Backend: [Acesse aqui](https://backnotagest.onrender.com/)  
+- Frontend: [Acesse aqui](https://nota-gest-frontend.vercel.app/)  
+- Backend: [Acesse aqui](https://notagest-0o2r.onrender.com/)  
 
 ## 🔹 Autores
 

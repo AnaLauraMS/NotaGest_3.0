@@ -115,8 +115,8 @@ A seguir estão as principais **funcionalidades** e **requisitos** do sistema:
 
 O projeto está dividido em **Frontend** e **Backend**, que podem ser acessados pelos links abaixo:  
 
-- Frontend: [Acesse aqui](https://nota-gest-frontend.vercel.app/)  
-- Backend: [Acesse aqui](https://notagest-0o2r.onrender.com/)  
+- Frontend: [Acesse aqui](https://nota-gest.vercel.app/)  
+- Backend: [Acesse aqui](https://backnotagest.onrender.com/)  
 
 ## 🔹 Autores
 

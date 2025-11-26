@@ -91,7 +91,8 @@ A seguir estão as principais **funcionalidades** e **requisitos** do sistema:
 - Criar Readme (Documentação do Projeto)
 - Criar Login do usuário.
 
-![Sprint 2](obsidian://open?vault=Obsidian%20Vault&file=Pasted%20image%2020251126184409.png)
+![Sprint 2](<img width="1618" height="828" alt="Captura de tela 2025-11-26 191100" src="https://github.com/user-attachments/assets/160ad351-40bc-450e-96b3-19ef18553f0f" />
+.png)
 
 ### Sprint 2 — Login / Cadastro (23–30 de outubro)
 - Implementação das telas de **Login e Cadastro**

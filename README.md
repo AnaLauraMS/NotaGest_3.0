@@ -91,8 +91,8 @@ A seguir estão as principais **funcionalidades** e **requisitos** do sistema:
 - Criar Readme (Documentação do Projeto)
 - Criar Login do usuário.
 
-(<img width="1618" height="828" alt="Captura de tela 2025-11-26 191100" src="https://github.com/user-attachments/assets/160ad351-40bc-450e-96b3-19ef18553f0f" />
-.png)
+![Sprint 1](<img width="1621" height="848" alt="Captura de tela 2025-11-26 184519" src="https://github.com/user-attachments/assets/8a032a99-4f1a-4ffa-9873-8c8c97cd9d6b" />)
+
 
 ### Sprint 2 — Login / Cadastro (23–30 de outubro)
 - Implementação das telas de **Login e Cadastro**

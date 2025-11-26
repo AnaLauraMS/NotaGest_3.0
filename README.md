@@ -85,6 +85,14 @@ A seguir estão as principais **funcionalidades** e **requisitos** do sistema:
 
 ## 📊 Entregas de Sprints  
 
+### Sprint 1 — Redefinição de Senha (17–01 de outubro)
+- Hospedagem em Nuvem (Frontend e Backend)
+- Fazer página de redefinição de senha.
+- Criar Readme (Documentação do Projeto)
+- Criar Login do usuário.
+
+![Sprint 2](obsidian://open?vault=Obsidian%20Vault&file=Pasted%20image%2020251126184409.png)
+
 ### Sprint 2 — Login / Cadastro (23–30 de outubro)
 - Implementação das telas de **Login e Cadastro**
 - Validação de credenciais (email/senha)

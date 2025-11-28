@@ -44,6 +44,10 @@ O sistema foi estruturado em duas principais camadas — **frontend** e **backen
 <p align="center">
   <img src="https://i.postimg.cc/R0hGcxDF/Diagrama-de-caso-de-uso.png" alt="Diagrama de Caso de Uso do NotaGest" width="600"/>
 </p>
+### 🗃️Swagger
+- Backend: [Acesse aqui](https://backnotagest.onrender.com/api-docs/)
+- Microsserviço: [Acesse aqui](https://micronotagest.onrender.com/api-docs/)
+---
 
 ## 💡 Funcionalidades e Requisitos
 
@@ -136,7 +140,8 @@ A seguir estão as principais **funcionalidades** e **requisitos** do sistema:
 O projeto está dividido em **Frontend** e **Backend**, que podem ser acessados pelos links abaixo:  
 
 - Frontend: [Acesse aqui](https://nota-gest.vercel.app/)  
-- Backend: [Acesse aqui](https://backnotagest.onrender.com/)  
+- Backend: [Acesse aqui](https://backnotagest.onrender.com/)
+- Microsserviço: [Acesse aqui](https://micronotagest.onrender.com/)
 
 ## 🔹 Autores
 
